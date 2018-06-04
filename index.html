@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>GratefulJed.net</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Chicle" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+  <script src="jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+    crossorigin="anonymous"></script>
+
+  <script src="main.js"></script>
+
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Grateful Jed</a>
+    <!--
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+-->
+    <div class="navbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="https://www.facebook.com/GratefulJedVA/" class="nav-link">
+            <i class="fab fa-facebook-square"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.instagram.com/gratefuljedva/" class="nav-link">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+
+
+    </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#events">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#music">Music</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#video">Video</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#gallery">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section id="banner" class="text-center">
+    <img id="banner-img" class="img-fluid" src="images/badge-white.png" alt="grateful-jed">
+  </section>
+  <div class="container">
+    <section class="feature-section" id="events">
+      <div id="show-card" class="card">
+        <!--  <img class="card-img-top" src="..." alt="Card image cap">-->
+        <div class="card-body">
+          <h5 class="card-title">Events</h5>
+          <!--    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+          <div class="list-group">
+            <div class="list-group-item">
+              <div class="d-flex justify-content-between align-items-center">
+                <strong>80/20 Burger Bar</strong> Saturday, April 21 10:00PM
+              </div>
+              Norfolk, VA
+            </div>
+            <div class="list-group-item">
+              <div class="d-flex justify-content-between align-items-center">
+                <strong>O'Connor Brewing Co.</strong> Saturday, May 19 9:00PM
+              </div>
+              Norfolk, VA
+            </div>
+            <div class="list-group-item">
+              <div class="d-flex justify-content-between align-items-center">
+                <strong>Hermitage Museum &amp; Gardens - Sunsets On The River</strong> Thursday, July 19 6:00PM
+              </div>
+              Norfolk, VA
+            </div>
+          </div>
+          <!--    <a href="#" class="btn btn-primary">Go somewhere</a>-->
+        </div>
+      </div>
+    </section>
+    <section class="feature-section" id="music">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Music</h5>
+          <ul class="list-group playlist">
+            <li class="list-group-item" id="they_love_samson">They Love Each Other > Samson &amp; Delilah</li>
+            <li class="list-group-item" id="bro_playing">Row Jimmy > Playing > Eyes > Playing</li>
+            <li class="list-group-item" id="new_minglewood">New Monglewood Blues</li>
+            <!--
+            <li class="list-group-item" id="china">China Cat Sunflower</li>
+            <li class="list-group-item" id="fire">Fire On The Mountain</li>
+            <li class="list-group-item" id="gold">The Golden Road</li>
+            <li class="list-group-item" id="hard">Harder They Come</li>
+            <li class="list-group-item" id="samson">Samson and Delilah</li>
+-->
+          </ul>
+          <br>
+          <center>
+            <audio id="player" controls style="width: 250px;">
+              <source id="mpeg-src" src="" type="audio/mpeg"> Your browser does not support the audio element.
+            </audio>
+          </center>
+
+        </div>
+      </div>
+    </section>
+    <section class="feature-section" id="video">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Video</h5>
+          <h6>80/20 Burger Bar</h6>
+          <center>
+            <video width="250" height="200" controls>
+              <source src="video/20180113_225147.mp4" type="video/mp4"> Your browser does not support the video tag.
+            </video>
+          </center>
+          <p class="text-center">Eyes Of The World</p>
+          <center>
+            <video width="250" height="200" controls>
+              <source src="video/20180113_225718.mp4" type="video/mp4"> Your browser does not support the video tag.
+            </video>
+          </center>
+          <p class="text-center">Viola Lee Blues</p>
+          <center>
+            <video width="250" height="200" controls>
+              <source src="video/20180113_234932.mp4" type="video/mp4"> Your browser does not support the video tag.
+            </video>
+          </center>
+          <p class="text-center">Shakedown Street</p>
+          <center>
+            <video width="250" height="200" controls>
+              <source src="video/20180114_004248.mp4" type="video/mp4"> Your browser does not support the video tag.
+            </video>
+          </center>
+          <p class="text-center">Fire On The Mountain</p>
+          <center>
+            <video width="250" height="200" controls>
+              <source src="video/20180114_010114.mp4" type="video/mp4"> Your browser does not support the video tag.
+            </video>
+          </center>
+          <p class="text-center">The Harder They Come</p>
+        </div>
+      </div>
+    </section>
+    <section class="feature-section" id="gallery">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Gallery</h5>
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="images/20180113_225232.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/20180113_234109.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/20180113_223344.jpg" alt="Third slide">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="feature-section" id="about">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">About</h5>
+          <p>Grateful Jed was born as a side project of some veteran musicians that were fans of the Grateful Dead and other
+            jam bands. It became obvious that people liked what we were doing so we locked in a line-up and made this our
+            primary project. The songs are our launchpad for jamming and following the music where it takes us. The emphasis
+            is on fun and crowd appeal.</p>
+          <p>
+            The band has set records everywhere they play. Starting with a two year run at the Belmont House of Smoke in Norfolk, the
+            band broke attendance and bar sales records the last three times they played the venue. Moving on to 80/20 Burger
+            Bar after the closing of the Belmont, the success continued breaking records at that venue.
+          </p>
+          <p>
+            Grateful Jed is ready to spread our reach to take the music to additional venues. Check us out!</p>
+          <p class="text-center">
+            <strong>Michael Conley</strong>
+            <br>
+            <em>Keyboardist, Vocalist</em>
+            <br>
+            <br>
+            <strong>Dave Moore</strong>
+            <br>
+            <em>Guitarist, Vocalist</em>
+            <br>
+            <br>
+            <strong>Russell Brown</strong>
+            <br>
+            <em>Guitarist, Vocalist</em>
+            <br>
+            <br>
+            <strong>Ian Flynn</strong>
+            <br>
+            <em>Drummer</em>
+            <br>
+            <br>
+            <strong>Randy Williford</strong>
+            <br>
+            <em>Bassist</em>
+            <br>
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <footer class="navbar navbar-dark bg-dark">
+    <span style="color: white;">&copy;2018 Grateful Jed</span>
+  </footer>
+</body>
+
+</html>
