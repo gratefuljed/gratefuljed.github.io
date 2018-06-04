@@ -5,6 +5,10 @@ html, body {
 }
 body {
     background-color: #111;
+    background-image: url("mandlebrot.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 .feature-section {
     margin-top: 1rem;
@@ -32,8 +36,9 @@ footer {
 .navbar {
     padding: 0 .5rem;
 }
-
-
+#main {
+    
+}
 #banner {
     padding-top:56px;
     background-image: url("images/20180113_225932.jpg");
