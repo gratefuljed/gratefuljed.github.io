@@ -1,5 +1,23 @@
 {
+  "name": "gratefuljed.github.io",
+  "version": "1.0.0",
+  "description": "grateful jed",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss -w"
+  },
+  "repository": "git+https://github.com/gratefuljed/gratefuljed.github.io.git",
+  "keywords": [
+    "grateful",
+    "jed"
+  ],
+  "author": "ian flynn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gratefuljed/gratefuljed.github.io/issues"
+  },
+  "homepage": "https://github.com/gratefuljed/gratefuljed.github.io#readme",
   "dependencies": {
-    "live-server": "^1.2.0"
+    "node-sass": "^4.9.0"
   }
 }
