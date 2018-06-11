@@ -2,7 +2,7 @@
   "name": "gratefuljed.github.io",
   "version": "1.0.0",
   "description": "grateful jed",
-  "main": "index.js",
+  "main": "js/main.js",
   "scripts": {
     "compile:sass": "node-sass sass/main.scss -w"
   },
