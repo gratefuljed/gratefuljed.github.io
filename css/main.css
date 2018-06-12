@@ -3,6 +3,7 @@ html, body {
     font-family: 'Chicle', cursive;
 
 }
+
 body {
     background-color: #111;
     background-image: linear-gradient(to right bottom, rgba(189, 33, 41, 0.7), rgba(6, 164, 216, 0.7)), url("../images/mandlebrot.jpg");
@@ -68,4 +69,16 @@ footer {
     bottom: 1rem;
     right: 1rem;
     
+}
+
+@media only screen and (max-width: 600px) {
+    #banner {
+        background-image: none;
+    }
+    #banner-img {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 50vh;
+    }
 }
