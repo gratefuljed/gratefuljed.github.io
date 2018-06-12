@@ -1,0 +1,58 @@
+html, body {
+    margin: 0;
+    font-family: 'Chicle', cursive;
+
+}
+body {
+    background-color: #111;
+    background-image: url("mandlebrot.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.feature-section {
+    margin-top: 1rem;
+    padding-top:74px;
+}
+.feature-section {
+    font-family: 'Roboto', sans-serif;
+}
+footer {
+    margin-top: 1rem;
+}
+.card-title {
+    font-family: 'Chicle', cursive;
+    font-size: 1.75rem;
+}
+.playlist>li:hover {
+    cursor: pointer
+}
+.nav-link {
+    font-size: 1.5rem;
+}
+.navbar-brand {
+    font-size: 2rem;
+}
+.navbar {
+    padding: 0 .5rem;
+}
+#main {
+    
+}
+#banner {
+    padding-top:56px;
+    background-image: url("images/20180113_225932.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+#banner-img {
+    max-width: 25vh;
+    padding-top: 2rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    
+}
