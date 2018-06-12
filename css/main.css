@@ -5,7 +5,7 @@ html, body {
 }
 body {
     background-color: #111;
-    background-image: url("mandlebrot.jpg");
+    background-image: linear-gradient(to right bottom, rgba(189, 33, 41, 0.7), rgba(6, 164, 216, 0.7)), url("../images/mandlebrot.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -13,6 +13,7 @@ body {
 .feature-section {
     margin-top: 1rem;
     padding-top:74px;
+    background-color: transparent;
 }
 .feature-section {
     font-family: 'Roboto', sans-serif;
@@ -20,9 +21,20 @@ body {
 footer {
     margin-top: 1rem;
 }
+.card {
+    background-color: rgba(0, 0, 0, 0.5);
+}
 .card-title {
+    color: white;
     font-family: 'Chicle', cursive;
     font-size: 1.75rem;
+}
+#about .card-body {
+    color: white;
+}
+
+#video p, #video h6 {
+    color: white;
 }
 .playlist>li:hover {
     cursor: pointer
@@ -36,12 +48,12 @@ footer {
 .navbar {
     padding: 0 .5rem;
 }
-#main {
+/* #main {
     
-}
+} */
 #banner {
     padding-top:56px;
-    background-image: url("images/20180113_225932.jpg");
+    background-image: linear-gradient(to right bottom, rgba(189, 33, 41, 0.7), rgba(6, 164, 216, 0.7)), url("../images/hero.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
