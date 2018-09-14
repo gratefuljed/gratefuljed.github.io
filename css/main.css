@@ -38,6 +38,10 @@ footer {
     color: white;
 }
 
+.video-block {
+    display: inline-block;
+}
+
 .playlist>li:hover {
     cursor: pointer
 }
