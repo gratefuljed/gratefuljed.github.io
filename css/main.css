@@ -107,3 +107,8 @@ hr {
     display: inline-block;
     margin-top: 3.5px;
 }
+
+.small-line {
+    margin: 0;
+    padding-left: 10px;
+}
