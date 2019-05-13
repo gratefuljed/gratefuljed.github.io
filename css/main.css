@@ -6,7 +6,7 @@ html, body {
 
 body {
     background-color: #111;
-    background-image: linear-gradient(to right bottom, rgba(189, 33, 41, 0.7), rgba(6, 164, 216, 0.7)), url("../images/mandlebrot.jpg");
+    background-image: linear-gradient(to right bottom, rgba(189, 33, 41, 0.7), rgba(6, 164, 216, 0.7));
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -62,7 +62,7 @@ footer {
     background-image: linear-gradient(to right bottom, rgba(189, 33, 41, 0.7), rgba(6, 164, 216, 0.7)), url("../images/hero.jpg");
     background-size:cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     height: 100vh;
     position: relative;
 }
