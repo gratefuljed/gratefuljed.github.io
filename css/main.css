@@ -6,14 +6,14 @@ body {
 
 body {
 	background-color: #111;
-	background-image: linear-gradient(
+	/* background-image: linear-gradient(
 		to right bottom,
 		rgba(189, 33, 41, 0.7),
 		rgba(6, 164, 216, 0.7)
 	);
 	background-attachment: fixed;
 	background-position: center;
-	background-size: cover;
+	background-size: cover; */
 }
 .feature-section {
 	margin-top: 1rem;
@@ -65,12 +65,12 @@ footer {
 } */
 #banner {
 	padding-top: 56px;
-	background-image: linear-gradient(
+	background-image: 
+		/* linear-gradient(
 			to right bottom,
 			rgba(189, 33, 41, 0.7),
 			rgba(6, 164, 216, 0.7)
-		),
-		url('../images/hero.png');
+		), */ url('../images/hero.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
