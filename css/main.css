@@ -1,114 +1,124 @@
-html, body {
-    margin: 0;
-    font-family: 'Chicle', cursive;
-
+html,
+body {
+	margin: 0;
+	font-family: 'Chicle', cursive;
 }
 
 body {
-    background-color: #111;
-    background-image: linear-gradient(to right bottom, rgba(189, 33, 41, 0.7), rgba(6, 164, 216, 0.7));
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+	background-color: #111;
+	background-image: linear-gradient(
+		to right bottom,
+		rgba(189, 33, 41, 0.7),
+		rgba(6, 164, 216, 0.7)
+	);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
 }
 .feature-section {
-    margin-top: 1rem;
-    padding-top:74px;
-    background-color: transparent;
+	margin-top: 1rem;
+	padding-top: 74px;
+	background-color: transparent;
 }
 .feature-section {
-    font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 footer {
-    margin-top: 1rem;
+	margin-top: 1rem;
 }
 .card {
-    background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.5);
 }
 .card-title {
-    color: white;
-    font-family: 'Chicle', cursive;
-    font-size: 1.75rem;
+	color: white;
+	font-family: 'Chicle', cursive;
+	font-size: 1.75rem;
 }
-#about .card-body, #contact .card-body {
-    color: white;
+#about .card-body,
+#contact .card-body {
+	color: white;
 }
 
-#video p, #video h4 {
-    color: white;
+#video p,
+#video h4 {
+	color: white;
 }
 
 .video-block {
-    display: inline-block;
+	display: inline-block;
 }
 
-.playlist>li:hover {
-    cursor: pointer
+.playlist > li:hover {
+	cursor: pointer;
 }
 .nav-link {
-    font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 .navbar-brand {
-    font-size: 2rem;
+	font-size: 2rem;
 }
 .navbar {
-    padding: 0 .5rem;
+	padding: 0 0.5rem;
 }
 /* #main {
     
 } */
 #banner {
-    padding-top:56px;
-    background-image: linear-gradient(to right bottom, rgba(189, 33, 41, 0.7), rgba(6, 164, 216, 0.7)), url("../images/hero.jpg");
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    height: 100vh;
-    position: relative;
+	padding-top: 56px;
+	background-image: linear-gradient(
+			to right bottom,
+			rgba(189, 33, 41, 0.7),
+			rgba(6, 164, 216, 0.7)
+		),
+		url('../images/hero.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	height: 100vh;
+	position: relative;
 }
 #banner-img {
-    max-width: 25vh;
-    padding-top: 2rem;
-    position: absolute;
-    bottom: 1rem;
-    right: 1rem;
-    
+	max-width: 25vh;
+	padding-top: 2rem;
+	position: absolute;
+	bottom: 1rem;
+	right: 1rem;
 }
 
 @media only screen and (max-width: 600px) {
-    #banner {
-        background-image: none;
-    }
-    #banner-img {
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        max-width: 40vh;
-    }
+	#banner {
+		background-image: none;
+	}
+	#banner-img {
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		max-width: 40vh;
+	}
 }
 
 .song-list {
-    display: inline-block;
-    font-size: 20px;
-    color: #fff;
-    text-decoration: none;
-    text-align: center;
+	display: inline-block;
+	font-size: 20px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
 }
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #fff;
-    margin: 1em 0;
-    padding: 0; 
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #fff;
+	margin: 1em 0;
+	padding: 0;
 }
 
 .img-anchor {
-    display: inline-block;
-    margin-top: 3.5px;
+	display: inline-block;
+	margin-top: 3.5px;
 }
 
 .small-line {
-    margin: 0;
-    padding-left: 10px;
+	margin: 0;
+	padding-left: 10px;
 }
